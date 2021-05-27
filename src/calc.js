@@ -11,6 +11,7 @@ function sum(array) {
   return array.reduce((acc, value) => acc + value, 0);
 }
 
+// The following is required for automated testing.
 if (typeof module !== "undefined") {
   module.exports = sum;
 }
